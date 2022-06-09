@@ -1,4 +1,4 @@
-export default () => {
+export default (selector) => {
   const dEl = document.querySelector(selector)
 
   let differX = 0
